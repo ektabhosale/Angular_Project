@@ -1,0 +1,65 @@
+{
+  "myServices": [
+    {
+      "id": 1,
+      "title": "TV repair",
+      "locality": "Mumbai-Western",
+      "cost": 500,
+      "remarks": "remark1"
+    },
+    {
+      "id": 2,
+      "title": "TV repair",
+      "locality": "Mumbai-Western",
+      "cost": 10000,
+      "remarks": "remark2"
+    },
+    {
+      "id": 3,
+      "title": "TV repair",
+      "locality": "Mumbai-Western",
+      "cost": 10000,
+      "remarks": "remark3"
+    },
+    {
+      "id": 4,
+      "title": "Washing mc",
+      "locality": "Goreagoan",
+      "cost": "250-500",
+      "remarks": "Local manus",
+      "specification": [
+        "This cost + other service cost"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Washing mc",
+      "locality": "Goreagoan",
+      "cost": "250-500",
+      "remarks": "Local manus",
+      "specification": [
+        "This is one time cost, I will not charge for next visit",
+        "This cost may vary",
+        "This cost + other service cost"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Maid",
+      "locality": "Malad",
+      "cost": "0-50",
+      "remarks": "",
+      "specification": [
+        "This cost + other service cost"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "",
+      "locality": "",
+      "cost": null,
+      "remarks": "",
+      "specification": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.img{
+    /* border-radius: 1px; */
+    max-width: 2px;
+    height: auto;
+}
+
+.container{
+    text-align: center;
+}
+
+#main_temp{
+font-size: 100px;
+color: black;
+}
+#coverToday
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* font-size: 100px; */
+    right: 0;
+    width: 550px;
+    padding: 35px;
+    margin: auto auto 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px grey, 0 0 0 20px #ffffffeb;
+    /* transform: scale(0.6); */
+}

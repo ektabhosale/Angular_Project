@@ -1,0 +1,10 @@
+<div class="ml-5 mr-5" style="background-color: rgb(238, 234, 234);">
+<h6 class="mt-2 " style="background: rgb(252, 73, 3);">Hacker News </h6>
+
+<table style="display: inline-block;" id="hnmain">
+<td >
+    <tr *ngFor="let det of new_story_array">{{det.title}} <br><small class="text-muted"> by {{det.by}} {{det.time}} ago</small></tr> 
+</td>  
+</table>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Computer Service",
+      "cost": 500,
+      "locality":  "Mumbai-Western",
+    "remarks":  "Local Agent",
+    "specification": ""
+    },
+    {
+      "id": 2,
+      "title": "Maid",
+      "cost": 100,
+      "locality":  "Mumbai-Western",
+    "remarks":  "Local Agent",
+    "specification": ""
+    },
+    {
+      "id": 3,
+      "title": "Ganpati Decoration",
+      "cost": 5000,
+      "locality":  "Mumbai-Western",
+    "remarks":  "Local Agent",
+    "specification": "One time cost"
+    },
+    {
+      "id": 4,
+      "title": "Chef",
+      "cost": 5000,
+      "locality":  "Mumbai-Western",
+    "remarks":  "Local Agent",
+    "specification": "One time cost"
+    }
+  ]
+}

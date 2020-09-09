@@ -1,0 +1,50 @@
+<app-nav-bar></app-nav-bar>
+
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Submitted</strong> You can add more services. All the best
+  <button type="button" (click)='closeAlert' class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<form [formGroup]="addMyService" (ngSubmit)="postNewService()" >
+    <div class="container p-2">
+    <div class="form-group ">
+      <label for="exampleFormControlInput1">Service Name</label>
+      <input type="text" class="form-control" formControlName='title'>
+    </div>
+    <div class="form-group ">
+      <label for="exampleFormControlInput1">Locality</label>
+      <input type="text" class="form-control" formControlName='locality'>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Cost</label>
+      <select class="form-control" formControlName='cost' id="exampleFormControlSelect1">
+        <option>0-50</option>
+        <option>100-250</option>
+        <option>250-500</option>
+        <option>500-1000</option>
+        <option>1000+</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect2">Select from below</label>
+      <select multiple class="form-control" id="exampleFormControlSelect2" formControlName='specification'>
+        <option>This is one time cost, I will not charge for next visit</option>
+        <option>This cost may vary</option>
+        <option>This cost + other service cost</option>
+        <option>We will discuss on call/message</option>
+        <option>Don't want to say</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Remark</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" formControlName='remarks' rows="3" ></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlFile1">Attachment</label>
+      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</div>
+  </form>
